@@ -1,7 +1,9 @@
 # ecmascript
 suggestion for ECMAScript &amp; JavaScript
 
-1. `<Type>.prototype.<Type>` (Array+String native or custum concate if you wanna) | `<Type>.<Type>` (class custum concate):
+1. concate types //emulate some types like Integer, BigNumber, bitfield, custum digits for numbers, etc<br>
+1.1. `<Type>.prototype.<Type>` (Array+String native or custum concate if you wanna)<br>
+1.2. `<Type>.<Type>` (class custum concate):
 ```JavaScript
 myInt=new BigInt('123');
 myInt.add('21397627623187126863762183267123286126321872681368721637218321621381237632187')
